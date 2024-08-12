@@ -1,0 +1,47 @@
+export const data = [
+    {
+        question: "What is the time complexity of seive of erastothenes",
+        option1 : "O(NlogN)",
+        option2 : "O(Nlog(logN))",
+        option3 : "O(LogN)",
+        option4 : "O(N)",
+        explanation: "The idea behind is this: A number is prime, if none of the smaller prime numbers divides it. Since we iterate over the prime numbers in order, we already marked all numbers, which are divisible by at least one of the prime numbers, as divisible. Hence if we reach a cell and it is not marked, then it isn't divisible by any smaller prime number and therefore has to be prime.",
+        ans : 2,
+    },
+    {
+        question: "Time complexity and the space complexity of kadane's algorithm",
+        option1 : "Time : O(N^2) Space : O(N)",
+        option2 : "Time : O(N^2) Space : O(1)",
+        option3 : "Time : O(N) Space : O(N)",
+        option4 : "Time : O(N) Space : O(1)",
+        explanation : " Kadane's Algorithm scans the entire array only once, using a loop that iterates through the array elements one by one. Since each element is processed exactly once, the time complexity is linear in terms of the number of elements, n. Space complexity is O(1) , constant space",
+        ans : 4,
+    },
+    {
+        question: "Prim's algorithm is used for",
+        option1 : "A Binary Tree",
+        option2 : "An Undirected graph ",
+        option3 : "It is used DP",
+        option4 : "It is used in arrays",
+        explanation : "Prim's algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, connected, and undirected graph. The Minimum Spanning Tree is a subset of the graph's edges that connects all the vertices together without any cycles and with the minimum possible total edge weight.",
+        ans : 2,
+    },
+    {
+        question: "Which of the following OS has the similarity of a Linux OS",
+        option1 : "MAC",
+        option2 : "Windows ",
+        option3 : "All windows and Mac OS have the same linux architecture",
+        option4 : "None",
+        explanation : "Both macOS and Linux are Unix-like operating systems, meaning they adhere to many of the principles and standards set by Unix, such as file system hierarchy, process management, and command-line utilities. While macOS and Linux share some Unix heritage, they are built on different kernels, have distinct system architectures, and cater to different user experiences. However, users familiar with one can often navigate and use the other with some adjustments due to these similarities.",
+        ans : 1,
+    },
+    {
+        question: "Which of the following OS can easily run on a Memory stick , without any further installation?",
+        option1 : "Ubuntu 22.04 LTS",
+        option2 : "Windows",
+        option3 : "Qubes",
+        option4 : "Tails",
+        explanation : "Tails OS (The Amnesic Incognito Live System) is a privacy-focused operating system that you can run directly from a USB stick without the need for installation on a computer's hard drive. It is designed to preserve privacy and anonymity by routing all internet traffic through the Tor network and leaving no trace on the machine it's used on, unless explicitly told otherwise.",
+        ans : 4,
+    }
+]
